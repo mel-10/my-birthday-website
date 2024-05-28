@@ -1,38 +1,79 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: white; /* Set background color to white */
+  color: #333;
+  /* Change text color to a dark shade for better contrast */
+}
+
+.navbar {
+  padding-top: 0 !important; /* Override the default padding */
+}
+
 .App {
+  text-align: center;
+  /* Remove min-height property to allow content to determine height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #333; /* Change default text color */
+}
+
+/* Home.css */
+.home h1 {
+  font-size: 5rem; /* Increase font size for Happy Birthday message */
+  margin-bottom: 20px;
+  color: #FF5733;
+  font-weight: 400; /* Change text color to accent color */
+}
+
+.home audio {
+  margin-top: 20px;
+}
+
+.home .countdown {
+  font-size: 5rem; /* Adjust the font size as needed */
+}
+
+/* Gallery.css */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.photo {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.photo img {
+  max-width: 100%;
+  border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.photo p {
+  color: #333; /* Change text color to a dark shade */
+  margin-top: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Quiz.css */
+.quiz {
+  margin-top: 120px;
+  text-align: center;
+  color: #333; /* Change text color to a dark shade */
+}
+
+.quiz button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #4CAF50;
   color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.quiz button:hover {
+  background-color: #45a049;
 }
