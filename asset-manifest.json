@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/my-birthday-website/static/css/main.311dfdb2.css",
+    "main.js": "/my-birthday-website/static/js/main.9a50da80.js",
+    "index.html": "/my-birthday-website/index.html",
+    "main.311dfdb2.css.map": "/my-birthday-website/static/css/main.311dfdb2.css.map",
+    "main.9a50da80.js.map": "/my-birthday-website/static/js/main.9a50da80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.311dfdb2.css",
+    "static/js/main.9a50da80.js"
+  ]
+}
